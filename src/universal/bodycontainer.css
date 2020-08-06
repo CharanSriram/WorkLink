@@ -3,5 +3,7 @@
     height: 100%;
     width: 85%;
     padding: 1vh;
+    padding-right: 2vh;
+    padding-left: 2vh;
     box-sizing: border-box;
 }

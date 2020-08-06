@@ -1,6 +1,7 @@
 import React from 'react'
 import './bodycontainer.css'
 import Header from './header'
+import DiscoverBody from '../discover/discoverbody'
 
 class BodyContainer extends React.Component {
     constructor(props) {
@@ -12,6 +13,7 @@ class BodyContainer extends React.Component {
         return (
             <div id="bodycontainer-body">
                 <Header></Header>
+                <DiscoverBody></DiscoverBody>
             </div>
         )
     }

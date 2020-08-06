@@ -20,7 +20,7 @@ class Sidebar extends React.Component {
     render() {
         return (
             <div id="sidebar-container" >
-                <h1 className= "sidebar-header">Previous Workers</h1>
+                <h2 className= "sidebar-header">Previous Workers</h2>
                 <input className="sidebar-input" placeholder="Search" value={this.state.searchText} onChange={this.handleChange}></input>
                 <div className="sidebar-cards-container" ></div>
             </div>
